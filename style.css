@@ -1,0 +1,30 @@
+body{
+    background-color: cyan;
+    margin: 0px;
+}
+.navbar{
+    background-color: yellow;
+    display: flex;
+    justify-content: space-around;
+}
+.navbar #logo{
+        width: 100px;
+        padding: 5px;
+}
+.navbar ul{
+        list-style-type: none;
+}
+.navbar a{
+    padding: 10px;
+    color: red;
+    text-decoration: none;
+}
+.navbar li{
+    display: inline-block;
+}
+.navbar a:hover{
+    color: green;
+}
+submit{
+    alignment-baseline: center;
+}
